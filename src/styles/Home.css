@@ -1,0 +1,84 @@
+.home-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.lastSerach-container{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 20px;
+    min-height: 60vh;
+}
+.home-container h3{
+    font-size: 28px;
+    color: white;
+}
+.title-search{
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    margin-top: 30px;
+}
+.home-container ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+.home-container ul li{
+    margin-left: 0;
+    list-style: none;
+    width: 300px;
+    color: #023047;
+    font-size: 25px;
+}
+.Link{
+    text-decoration: none;
+}
+.form-container--home{
+    width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-container--home input{
+    width: 140px;
+    height: 22px;
+    border: none;
+    padding: 4px;
+    border-radius: 10px 0 0 10px;
+}
+.form-container--home button{
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    background: #1c88fa;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.form-container--home span{
+    position: absolute;
+    cursor: pointer;
+    color: #1c88fa;
+    left: 215px;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    background: #adb5bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

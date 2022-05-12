@@ -1,0 +1,21 @@
+.div-container--tendencias{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+.Link{
+    color: #adb5bd;
+    cursor: pointer;
+}
+.Link:hover{
+    color: white;
+}
+.LazyTrending{
+    width: 70%;
+}
